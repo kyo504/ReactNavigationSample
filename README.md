@@ -1,6 +1,6 @@
 # React Navigation Sample
 
-In an effort to learn [react-navigation]("https://reactnavigation.org"), this is a simple navigation application. Though this doens't have much features, this would be template for the next project.
+In an effort to learn [react-navigation](https://reactnavigation.org), this is a simple navigation application. Though this doens't have much features, this would be template for the next project.
 
 # Installation
 1. npm install
