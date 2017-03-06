@@ -42,12 +42,14 @@ export default class ImageBoardScreen extends Component {
 
     return (
       <TouchableElement onPress={() => navigate('Image', { ...rowData })}>
-        <Image style={styles.rowContainer} source={{ uri: image_url }}>
-          <View style={styles.textContainer}>
-            <Text style={styles.title}>{title}</Text>
-            <Text style={styles.message} numberOfLines={1}>{userid}</Text>
-          </View>
-        </Image>
+        <View>
+          <Image style={styles.rowContainer} source={{ uri: image_url }}>
+            <View style={styles.textContainer}>
+              <Text style={styles.title}>{title}</Text>
+              <Text style={styles.message} numberOfLines={1}>{userid}</Text>
+            </View>
+          </Image>
+        </View>
       </TouchableElement>
     )
   }
